@@ -1,5 +1,5 @@
 # SpringAsynchronousCompletableFuture
-<h3>Spring Boot example of the execution of asynchronous methods using CompletableFuture</h3>
+<h3>Spring Boot example of the execution of asynchronous methods using @Async and CompletableFuture</h3>
 <br>
 This example consumes the service provided by Github to obtain account information (https://api.github.com/users/). In the run method of the main class, the data of three accounts are requested, for this, three requests of the gitHubLookupService.findUser() service are executed asynchronously.
 <br>
